@@ -35,3 +35,11 @@ print(z)
 #Indexing
 
 #Reshaping
+x = tf.range(9)
+print(x)
+
+y = tf.reshape(x, (3,3))
+print(y)
+
+x = tf.transpose(y, perm=[1,0])
+print(x)
